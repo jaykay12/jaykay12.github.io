@@ -293,27 +293,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 .categories {
 	padding-bottom: 30px;
-	text-align: center;
+  display: flex;
+  justify-content: center;
 }
-ul.cat li {
-	display: inline-block;
-}
-ol.type li {
-	display: inline-block;
-	margin-left: 20px;
+.type {
+	display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 	text-transform: uppercase;
 }
-ol.type li a {
+.type a {
 	background: transparent;
 	border: 2px solid #526cbb;
 	color: #526cbb;
-	padding: 10px 20px;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  width: fit-content;
 }
-ol.type li a.active {
+.type a.active {
 	background: #526cbb;
 	color: #fff;
 }
-ol.type li a:hover {
+.type a:hover {
 	background: #526cbb;
 	color: #fff;
 }
@@ -612,11 +613,16 @@ header .intro-text {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+
 }
 
 @media (max-width: 1024px) {
 #about img {
 	float: left;
 	margin-bottom: 20px;
+}
+.type {
+  flex-direction: column;
+  justify-content: center;
 }
 }

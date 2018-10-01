@@ -307,22 +307,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
   flex-wrap: wrap;
 	text-transform: uppercase;
 }
+/* Change Style Of Buttons */
+
 .type a {
-	background: transparent;
-	border: 2px solid #526cbb;
-	color: #526cbb;
-  padding: 10px 20px;
-  margin: 5px 10px;
-  width: fit-content;
+	padding: 10px 20px;
+	margin: 5px 10px;
+	width: fit-content;
+	color: #fff;
+	border-radius: 3px;
+	background: #4c6fbe;
+	box-shadow: 5px 5px 25px 0 rgba(42, 47, 51, 0.5)
 }
 .type a.active {
-	background: #526cbb;
-	color: #fff;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.5);
 }
 .type a:hover {
-	background: #526cbb;
-	color: #fff;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.5);
 }
+
 .isotope-item {
 	z-index: 2
 }
@@ -404,6 +406,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	opacity: 0;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.2);
+
 	transition: all 0.3s;
 }
 .hover-bg:hover .hover-text>i {
@@ -420,6 +424,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding: 5px;
 	color: #E87E04;
 }
+
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;

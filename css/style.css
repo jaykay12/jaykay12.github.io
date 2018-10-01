@@ -195,8 +195,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.btn-primary.resume {
-	margin-left: 10px;
+.btn-primary.external {
+	margin-left: 8px;
 }
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
@@ -625,9 +625,8 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 }
-@media (max-width: 372px) {
-	.btn-primary.resume {
-		margin-left: 0;
-		margin-top: 10px;
+@media (max-width: 1200px) {
+	.btn-primary.external {
+		margin-left: 0px;
 	}
 }

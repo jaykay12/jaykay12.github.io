@@ -8,6 +8,9 @@ body, html {
 }
 h1 {
 	font-weight: 700;
+	font-size:20px;;
+	font-family: 'Open Sans', sans-serif;
+	
 }
 h1 strong {
 	font-weight: 900;

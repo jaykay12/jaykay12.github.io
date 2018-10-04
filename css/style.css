@@ -573,13 +573,13 @@ color: #2c3e50;
 	display: inline-block;
 	margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.fab {
 	font-size: 30px;
 	padding: 4px 5px;
 	color: #fff;
 	transition: all 0.5s;
 }
-#contact .social i.fa:hover {
+#contact .social i.fab:hover {
 	color: #121d1f;
 }
 /* Footer Section*/

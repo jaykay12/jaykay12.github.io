@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.jaykay12.github.io/tech/sitemap.xml
+Sitemap: https://jaykay12.github.io/tech/sitemap.xml
